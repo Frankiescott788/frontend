@@ -6,16 +6,14 @@
       "username": "frankie",
       "email": "scottfrankie864@gmail.com",
       "password": "test123"
+    },
+    {
+      "id": "5837",
+      "_id": "6f7a4d50-3118-4b51-835d-515b810a26ca",
+      "username": "frankie",
+      "email": "scottfrankie864@gmail.com",
+      "password": "test123"
     }
   ],
-  "shoppinglists": [
-    {
-      "id": "1237",
-      "_id": "06b8577b-5dc8-40e4-966b-6a922ea5e52c",
-      "name": "Bmw",
-      "itemQuantity": "1",
-      "tag": "Sport car",
-      "optional_notes": "no"
-    }
-  ]
+  "shoppinglists": []
 }

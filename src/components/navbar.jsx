@@ -75,7 +75,7 @@ const Navbar = () => {
                   src: "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?t=st=1725452902~exp=1725456502~hmac=f92e0b9404877c62e6ab01098297803d6f8ffbfbbcb4a3e438167ae709ba3a7f&w=826",
                 }}
                 className="transition-transform"
-                description="@tonyreichert"
+                description={information[0]?.email}
                 name={information[0]?.username}
               />
             </DropdownTrigger>

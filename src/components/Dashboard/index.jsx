@@ -22,7 +22,7 @@ const Dashboard = () => {
   const [cookies, setCookies, removeCookie ] = useCookies(['auth_token']);
   return (
     <section>
-      <aside className="w-[12dvw] border-e-2 h-[95dvh] fixed bottom-0 left-0 top-0">
+      <aside className=" md:w-[25dvw] xl:w-[12dvw] border-e-2 h-[95dvh] fixed bottom-0 left-0 top-0">
         <div className="flex gap-1 my-5 px-3">
           <div>
             <svg
@@ -105,7 +105,7 @@ const Dashboard = () => {
                     src: "https://img.freepik.com/free-vector/blue-circle-with-white-user_78370-4707.jpg?t=st=1725452902~exp=1725456502~hmac=f92e0b9404877c62e6ab01098297803d6f8ffbfbbcb4a3e438167ae709ba3a7f&w=826",
                   }}
                   className="transition-transform"
-                  description="@tonyreichert"
+                  description={information[0]?.email}
                   name={information[0]?.username}
                 />
               </DropdownTrigger>
