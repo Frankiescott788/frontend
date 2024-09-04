@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "03e8",
+      "_id": "06b8577b-5dc8-40e4-966b-6a922ea5e52c",
+      "username": "frankie",
+      "email": "scottfrankie864@gmail.com",
+      "password": "test123"
+    }
+  ],
+  "shoppinglists": [
+    {
+      "id": "1237",
+      "_id": "06b8577b-5dc8-40e4-966b-6a922ea5e52c",
+      "name": "Bmw",
+      "itemQuantity": "1",
+      "tag": "Sport car",
+      "optional_notes": "no"
+    }
+  ]
+}
